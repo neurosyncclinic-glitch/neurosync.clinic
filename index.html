@@ -1,112 +1,185 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NeuroSync Clinic</title>
+<title>NEUROSYNC CLINIC – נוירופידבק קליני</title>
+
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #f8fafc;
-  line-height: 1.6;
+body{
+  margin:0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:#ffffff;
+  color:#1f2937;
+  line-height:1.8;
 }
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
 }
-.hero {
-  text-align: center;
+h1,h2,h3{
+  color:#0f2a44;
 }
-.hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+h1{font-size:2.6em;text-align:center;}
+h2{font-size:2em;margin:60px 0 25px;text-align:center;}
+h3{font-size:1.4em;margin:25px 0 10px;}
+.section{margin:60px 0;}
+.hero{
+  background:#f0f6fb;
+  padding:80px 20px;
+  text-align:center;
 }
-.hero p {
-  font-size: 1.1rem;
-  opacity: 0.9;
+.hero p{font-size:1.2em;}
+.btn{
+  display:inline-block;
+  margin:15px;
+  padding:14px 34px;
+  border-radius:8px;
+  font-weight:600;
+  text-decoration:none;
 }
-.cta {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 14px 28px;
-  background: #22c55e;
-  color: #022c22;
-  font-weight: bold;
-  border-radius: 30px;
-  text-decoration: none;
+.btn-primary{
+  background:#25D366;
+  color:#fff;
 }
-.section {
-  margin-top: 60px;
+.btn-secondary{
+  background:#0f2a44;
+  color:#fff;
 }
-.section h2 {
-  font-size: 1.6rem;
-  margin-bottom: 15px;
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
 }
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.card{
+  background:#f8fafc;
+  border-radius:10px;
+  padding:25px;
+  border:1px solid #e5e7eb;
 }
-.card {
-  background: #020617;
-  border-radius: 16px;
-  padding: 20px;
+.quote{
+  background:#ffffff;
+  border-right:4px solid #1f4f7a;
+  padding:25px;
+  border-radius:8px;
 }
-.footer {
-  margin-top: 60px;
-  text-align: center;
-  font-size: 0.9rem;
-  opacity: 0.7;
+.faq{
+  background:#f8fafc;
+  padding:25px;
+  border-radius:10px;
+  margin:20px 0;
 }
+.footer{
+  background:#0f172a;
+  color:#d1d5db;
+  padding:50px 20px;
+  text-align:center;
+}
+.footer a{color:#25D366;text-decoration:none;}
+.small{font-size:0.95em;color:#6b7280;}
 </style>
 </head>
 
 <body>
 
+<section class="hero">
+  <h1>NEUROSYNC CLINIC</h1>
+  <p>מרכז מתקדם לטיפולי נוירופידבק</p>
+
+  <h2>🧠 תנו למוח שלכם לרפא את עצמו – בצורה טבעית וללא תרופות</h2>
+  <p>
+    הפסיקו להיאבק עם ADHD, חרדה, דיכאון או קשיי שינה<br>
+    גלו איך נוירופידבק עוזר למוח שלכם להתאזן מחדש – ללא תופעות לוואי, ללא תרופות, עם תוצאות מוכחות.
+  </p>
+
+  <a href="https://did.li/NeuroSync-Clinc" class="btn btn-primary">📲 שיחת ייעוץ חינם - לחצו כאן</a>
+  <a href="#about" class="btn btn-secondary">📖 קראו עוד</a>
+</section>
+
 <div class="container">
 
-  <div class="hero">
-    <h1>איזון מוחי. רוגע. דיוק.</h1>
-    <p>טיפול נוירופידבק מתקדם המבוסס על מדע המוח — בלי תרופות, בלי כאב.</p>
-    <a class="cta" href="https://did.li/NeuroSync-Clinc">שיחה בוואטסאפ</a>
-  </div>
+<section class="section grid">
+  <div class="card">✅ למעלה מ-500 מטופלים מרוצים</div>
+  <div class="card">🔬 מבוסס על מחקרים מדעיים</div>
+  <div class="card">👥 מותאם אישית לכל גיל</div>
+  <div class="card">💊 ללא תרופות, ללא כאב</div>
+  <div class="card">📊 תוצאות נמדדות</div>
+</section>
 
-  <div class="section">
-    <h2>למי זה מתאים?</h2>
-    <div class="cards">
-      <div class="card">חרדה ולחץ מתמשך</div>
-      <div class="card">קשיי קשב וריכוז (ADHD)</div>
-      <div class="card">הפרעות שינה</div>
-      <div class="card">עומס רגשי ושחיקה</div>
-    </div>
-  </div>
+<section class="section">
+<h2>💬 מה מטופלים שלנו אומרים</h2>
 
-  <div class="section">
-    <h2>איך זה עובד?</h2>
-    <p>
-      נוירופידבק הוא אימון מוחי לא פולשני.
-      המוח מקבל משוב בזמן אמת ולומד לאזן את עצמו בצורה טבעית.
-      השיטה מבוססת מחקרית ומשמשת קליניקות מובילות בעולם.
-    </p>
-  </div>
+<div class="quote">
+<strong>📌 רונית, אמא לדניאל (בן 9) - ADHD</strong><br>
+"אחרי 3 חודשים של התלבטויות אם לתת לו ריטלין, החלטנו לנסות נוירופידבק..."
+</div>
 
-  <div class="section">
-    <h2>למה NeuroSync?</h2>
-    <p>
-      שילוב בין גישה מדעית מדויקת לליווי אנושי, רגשי ומכיל.
-      התאמה אישית מלאה לכל מטופל.
-    </p>
-  </div>
+<div class="quote">
+<strong>📌 יוסי, בן 34 - חרדה כללית ופאניקה</strong><br>
+"חשבתי שאני צריך ללמוד לחיות עם החרדה..."
+</div>
 
-  <div class="footer">
-    <p>NeuroSync Clinic | באר שבע • כרמיאל</p>
-    <p><a href="https://did.li/NeuroSync-Clinc" style="color:#22c55e;">צור קשר בוואטסאפ</a></p>
-  </div>
+<div class="quote">
+<strong>📌 מיכל, בת 52 - גיל המעבר וקשיי ריכוז</strong><br>
+"חשבתי שזה סתם 'הגיל'..."
+</div>
+
+<a href="https://did.li/NeuroSync-Clinc" class="btn btn-primary">💡 שלחו הודעה בוואטסאפ</a>
+</section>
+
+<section id="about" class="section">
+<h2>🧬 מה זה בכלל נוירופידבק? (בעברית פשוטה)</h2>
+<p style="text-align:center;font-size:1.3em;">תארו לעצמכם חדר כושר למוח שלכם.</p>
+
+<div class="grid">
+  <div class="card"><strong>1</strong><br>חיישנים עדינים<br>מודדים את גלי המוח שלכם</div>
+  <div class="card"><strong>2</strong><br>המוח מקבל "משוב"<br>דרך משחק או סרטון</div>
+  <div class="card"><strong>3</strong><br>המוח לומד לווסת<br>כמו ללמוד אופניים</div>
+  <div class="card"><strong>4</strong><br>השינויים נשארים<br>המוח זוכר</div>
+</div>
+
+<p style="text-align:center;">
+<strong>זה לא קסם – זה נוירופלסטיות.</strong><br>
+💡 מחקרים מדעיים הוכיחו שנוירופידבק יעיל ב-ADHD, חרדה, דיכאון, טראומה, נדודי שינה ועוד.
+</p>
+</section>
+
+<section class="section">
+<h2>❓ שאלות שכולם שואלים (ותשובות ישרות)</h2>
+
+<div class="faq">
+<strong>האם הטיפול כואב או מסוכן?</strong><br>
+בכלל לא. החיישנים רק מודדים – לא שולחים שום דבר למוח.
+</div>
+
+<div class="faq">
+<strong>כמה זמן נמשך כל מפגש?</strong><br>
+כ-45 דקות.
+</div>
+
+<div class="faq">
+<strong>מתי אפשר לראות תוצאות?</strong><br>
+שיפור ראשוני אחרי 5–10 מפגשים.
+</div>
+
+<div class="faq">
+<strong>האם זה עובד על כולם?</strong><br>
+לא. אך 70–80% מדווחים על שיפור משמעותי.
+</div>
+</section>
 
 </div>
+
+<footer class="footer">
+<p><strong>NEUROSYNC CLINIC</strong></p>
+<p>📍 באר שבע | כרמיאל</p>
+<p><a href="https://did.li/NeuroSync-Clinc">📲 שלחו הודעה בוואטסאפ</a></p>
+<p class="small">© 2025 NEUROSYNC CLINIC – כל הזכויות שמורות</p>
+<p class="small">
+⚠️ האתר מיועד למידע בלבד ואינו תחליף לייעוץ רפואי
+</p>
+</footer>
 
 </body>
 </html>
